@@ -2,7 +2,7 @@ import {RiReactjsLine} from "react-icons/ri";
 import {TbBrandNextjs} from "react-icons/tb";
 import {SiMongodb} from "react-icons/si";
 import {FaNodeJs} from "react-icons/fa";
-import {BiLogoPostgresql} from "react-icons/bi"
+import { DiJavascript } from "react-icons/di";
 import { DiCss3 } from "react-icons/di";
 import { DiHtml5 } from "react-icons/di";
 import { animate, motion } from "framer-motion"
@@ -72,7 +72,7 @@ const Technologies = () => {
            transition={{duration:1, delay:1.5}}
         
         className="rounded-2xl border-4 border-zinc-100 shadow-lg p-6">
-            <FaNodeJs className="text-7xl text-green-500"/>
+            <DiJavascript className="text-7xl text-yellow-500"/>
         </motion.div>
 
     </motion.div>

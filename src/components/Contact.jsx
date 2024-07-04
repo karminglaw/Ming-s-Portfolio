@@ -14,7 +14,7 @@ const Contact = () => {
 </span></motion.h2>
       <div className="text-center tracking-tighter">
         <p className="my-4 text-zinc-600">{CONTACT.phoneNo}</p>
-        <a href="#" className="border-b text-zinc-600">
+        <a href="mailto:lawming234@gmail.com" className="border-b text-zinc-600">
           {CONTACT.email}
         </a>
       </div>
