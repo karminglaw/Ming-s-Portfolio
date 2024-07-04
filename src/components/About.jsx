@@ -1,6 +1,6 @@
 import React from 'react'
 import "../index.css"; // Ensure this path is correct and it includes your TailwindCSS imports
-import aboutImg from "../assets/about.jpg"
+import aboutImg from "../assets/image2.jpg"
 import { ABOUT_TEXT } from '../constants';
 import {motion} from "framer-motion"
 
@@ -21,7 +21,7 @@ const About = () => {
         
         className="w-full lg:w-1/2 lg:p-8">
             <div className="flex items-center justify-center">
-                <img className="rounded-2xl" src={aboutImg} alt="" />
+                <img className="rounded-2xl lg:w-4/5" src={aboutImg} alt="" />
             </div>
         </motion.div>
         <motion.div 
