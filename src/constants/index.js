@@ -17,7 +17,7 @@ export const EXPERIENCES = [
     year: "July 2024 - October 2024",
     role: "Web Developer Intern",
     company: "Bike Bear Sdn Bhd",
-    description: `Interned and was taught by experienced seniors in developing and maintaining websites using WordPress, Next.js, and HTML5/CSS. Collaborated with MNC companies such as McDonald's and Tealive.`,
+    description: `Gained hands-on experience through internships, working alongside senior developers to create and maintain websites using WordPress, Next.js, and HTML5/CSS. Contributed to projects for major corporate clients, including McDonald's and Tealive.`,
     technologies: ["Wordpress", "HTML5/CSS", "Next.js", "MongoDB"],
   },
   {
