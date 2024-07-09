@@ -13,7 +13,7 @@ const Projects = () => {
         className="my-20 text-center text-4xl"><span className="bg-gradient-to-r from-blue-400 via-blue-300 to-sky-500 bg-clip-text text-4xl tracking-tight text-transparent">
   Projects
 </span></motion.h2>
-        <div>
+<div>
           {PROJECTS.map((project, index) => (
             <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
               <motion.div 
@@ -32,7 +32,11 @@ const Projects = () => {
                             
               
               className="w-full max-w-xl lg:w-3/4">
-                <h6 className="mb-2 font-bold text-zinc-700">{project.title}</h6>
+                <h6 className="mb-2 font-bold text-zinc-700">
+                  <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-slate-800 hover:underline">
+                    {project.title}
+                  </a>
+                </h6>
                 <p className="mb-4 text-zinc-600">{project.description}</p>
                 {project.technologies.map((tech, index) => (
                   <span
@@ -51,7 +55,3 @@ const Projects = () => {
   };
   
   export default Projects;
-
-  <h2 className="my-20 text-center text-4xl"><span className="bg-gradient-to-r from-blue-400 via-blue-300 to-sky-500 bg-clip-text text-4xl tracking-tight text-transparent">
-  Technologies
-</span></h2>

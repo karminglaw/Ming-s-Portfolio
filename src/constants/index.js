@@ -31,29 +31,27 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
-
   {
-    title: "Personal Library Website",
+    title: "Reviewo: A Personal Book Review Website",
     image: project2,
-    description:
-      "A personal library that tracks all the books that I have read since the COVID-19 pandemic.",
-    technologies: ["HTML5", "CSS", "ReactJS", "Vite" , "Vercel"],
+    description: "A personal library that tracks all the books that I have read since the COVID-19 pandemic.",
+    link: "https://reviewo.vercel.app/",
+    technologies: ["HTML5", "CSS", "ReactJS", "Vite", "Vercel"],
   },
   {
     title: "FitMeister: A Fitness Tracking Website",
     image: project1,
-    description:
-      "A comprehensive fitness tracking website offering advanced features such as interactive graph analytics, BMI calculation, and full CRUD functionality for workout entries, all seamlessly integrated with MongoDB's cloud database",
+    description: "A comprehensive fitness tracking website offering advanced features such as interactive graph analytics, BMI calculation, and full CRUD functionality for workout entries, all seamlessly integrated with MongoDB's cloud database",
+    link: "https://your-fitness-website-link.com",
     technologies: ["HTML5", "CSS", "ReactJS", "Node.js", "MongoDB"],
   },
   {
     title: "My Portfolio Website",
     image: project3,
-    description:
-      "My personal portfolio website showcasing my projects, skills, and contact information.",
+    description: "My personal portfolio website showcasing my projects, skills, and contact information.",
+    link: "https://mings-portfolio.vercel.app/",
     technologies: ["HTML5", "Tailwind", "ReactJS", "Vercel", "Vite"],
   },
-
 ];
 
 export const CONTACT = {
